@@ -18,9 +18,9 @@ const styles = (theme) => ({
   search: {
     position: 'relative',
     borderRadios: theme.shape.borderRadios,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
+    backgroundColor: fade(theme.palette.common.white, 0.25),
     '&:hover': {
-      backgroundColor: fade(theme.palette.common.white, 0.25),
+      backgroundColor: fade(theme.palette.common.white, 0.35),
     },
     marginLeft: 0,
     width: '100%',
@@ -47,7 +47,7 @@ const styles = (theme) => ({
     paddingBottom: theme.spacing(),
     paddingLeft: theme.spacing(10),
     transition: theme.transitions.create('width'),
-    width:'100%',
+    width: '100%',
     [theme.breakpoints.up('sm')]: {
       width: 120,
       '&:focus': {
